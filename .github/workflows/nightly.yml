@@ -15,8 +15,6 @@ on:
       - "[0-9]+.[0-9]+"
       - "[0-9]+.[0-9]+-korean"
       - "[0-9]+.[0-9]+-korean-r[0-9]+"
-  schedule:
-    - cron: "27 3 * * *"
   workflow_dispatch:
     inputs:
       publish_release:
